@@ -9,7 +9,7 @@ class Solution {
             int[] data = new int[26];
 
             for (int ineerValue = 0; ineerValue < lenghtForWord; ineerValue++) {
-                // ["act","pots","tops","cat","stop","hat"]
+                // ["act", "pots", "tops", "cat", "stop", "hat"]
                 // "act" => we here now
                 int currentChart = strs[outerValue].charAt(ineerValue);
 
@@ -20,7 +20,7 @@ class Solution {
             // second problem
             Object key = Arrays.toString(data);
 
-            // this part we stucked in it
+            // this part we got stuck on
 
             if (hashtable.containsKey(key)) {
                 // key exists: add the word to the existing list
